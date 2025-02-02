@@ -31,7 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   fl_chart: ^0.65.0
-
+  device_preview: ^1.2.0
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
@@ -64,6 +64,7 @@ flutter:
     - assets/login_illustration.png
     - assets/signup_illustration.png
     - assets/vr_logo.png
+    - assets/logocq.png
 
 
   # To add assets to your application, add an assets section, like this:

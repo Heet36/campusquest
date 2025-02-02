@@ -19,14 +19,14 @@ class FirstPage extends StatelessWidget {
                 const SizedBox(height: 48),
                 // Logo
                 Image.asset(
-                  'assets/logo.png',
+                  'assets/logocq.png',
                   height: 96,
                   width: 96,
                 ),
                 const SizedBox(height: 24),
                 // Welcome Text
                 const Text(
-                  'Welcome to DMI',
+                  'Welcome to CQ',
                   style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.bold,

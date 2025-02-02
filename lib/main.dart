@@ -1,9 +1,15 @@
 import 'package:college/Pages/AppDrawer.dart';
 import 'package:flutter/material.dart';
+import 'package:device_preview/device_preview.dart';
 import 'pages/first_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    DevicePreview(
+      enabled: true,  // Set to false in production
+      builder: (context) => const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -17,9 +23,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: const Color(0xFF0039A6),
         scaffoldBackgroundColor: Colors.white,
-        fontFamily: 'Roboto', // You can change this to match your design
+        fontFamily: 'Roboto',
         useMaterial3: true,
       ),
-      home: const FirstPage()    );
+      home: const FirstPage(),
+      builder: DevicePreview.appBuilder, // Enables device preview
+    );
   }
 }

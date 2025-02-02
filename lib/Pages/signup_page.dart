@@ -28,13 +28,13 @@ class SignupPage extends StatelessWidget {
                   child: Column(
                     children: [
                       Image.asset(
-                        'assets/logo.png',
+                        'assets/logocq.png',
                         height: 80,
                         width: 80,
                       ),
                       const SizedBox(height: 20),
                       const Text(
-                        'Welcome to DMI',
+                        'Welcome to CQ',
                         style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,

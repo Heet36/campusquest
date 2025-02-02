@@ -45,14 +45,14 @@ class ProfilePage extends StatelessWidget {
                     ),
                     SizedBox(height: 8),
                     Text(
-                      'VR',
+                      'Heet Jivani',
                       style: TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.w500,
                       ),
                     ),
                     Text(
-                      '2020202023s',
+                      '202412028',
                       style: TextStyle(
                         fontSize: 12,
                         color: Colors.grey,
@@ -76,7 +76,7 @@ class ProfilePage extends StatelessWidget {
                 ),
                 child: Column(
                   children: [
-                    _buildInfoRow('DEPARTMENT', 'B.Tech. Information Technology'),
+                    _buildInfoRow('DEPARTMENT', 'Msc. Information Technology'),
                     const SizedBox(height: 8),
                     _buildInfoRow('SEMESTER', '7'),
                     const SizedBox(height: 8),
